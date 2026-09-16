@@ -31,15 +31,11 @@ These are the same building blocks used inside ClaPat's premium HTML templates a
 
 ## Components
 
-> First components land here shortly. Star the repo to get notified.
-
-| Component | What it does | Demo |
+| Component | What it does | Code |
 |-----------|--------------|------|
-| Custom Cursor | Context-aware custom cursor with hover states | _coming soon_ |
-| Shuffle Text | Scramble / shuffle text reveal animation | _coming soon_ |
-| Marquee | Infinite scrolling marquee text | _coming soon_ |
-| Animated Counter | Count-up number animation on scroll | _coming soon_ |
-| Text Reveal | Blur, slide, and fade text animations | _coming soon_ |
+| [ASCII Cursor Trail](./ascii-cursor-trail) | A trail of random ASCII characters that follows the pointer | [View](./ascii-cursor-trail) |
+
+> Star the repo to get notified when new components are added.
 
 ## Quick start
 
@@ -50,7 +46,7 @@ Each component lives in its own folder. To use one:
 git clone https://github.com/clapatstudio/clapat-freebies.git
 
 # 2. Open the component folder you want
-cd clapat-freebies/custom-cursor
+cd clapat-freebies/ascii-cursor-trail
 
 # 3. Open index.html in your browser — that's it
 ```
