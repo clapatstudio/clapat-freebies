@@ -6,7 +6,9 @@ Part of [ClaPat Freebies](https://github.com/clapatstudio/clapat-freebies) · [L
 
 ## Demo
 
-Open `index.html` in your browser and move the mouse across the page.
+**[▶ Live demo](https://clapatstudio.github.io/clapat-freebies/ascii-cursor-trail/)** — move the mouse across the page.
+
+Or open `index.html` locally in your browser.
 
 ## Usage
 
