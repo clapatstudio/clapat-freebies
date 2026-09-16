@@ -1,0 +1,55 @@
+/* ClaPat — ASCII Cursor Trail — https://www.clapat-templates.com */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'DM Mono', ui-monospace, monospace;
+    color: #ffffff;
+    background-color: #0d0d0d;
+}
+
+.trail-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trail-hint {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.trail-grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.trail-cell {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #000000;
+    background-color: #ff5500;
+    visibility: hidden;
+    user-select: none;
+}
